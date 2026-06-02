@@ -24,17 +24,7 @@ set_grand_doctrine = new_fleet_in_being
 
 
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	recruit_character = RAJ_homi_j_bhabha
-	recruit_character = RAJ_lakshmi_sahgal
-	recruit_character = RAJ_orde_wingate
-	recruit_character = RAJ_kodandera_madappa_cariappa
-	recruit_character = RAJ_kodandera_subayya_thimayya
-	recruit_character = RAJ_jayanto_nath_chaudhuri
-}
+
 
 
 if = {
@@ -75,9 +65,7 @@ if = {
 	}
 
 	add_ideas = {
-		RAJ_princely_states
-		RAJ_marginalized_muslim_community
-		RAJ_risk_of_famine
+
 	}
 
 	add_to_tech_sharing_group = commonwealth_research
@@ -114,7 +102,6 @@ if = {
 
 set_convoys = 20
 
-set_cosmetic_tag = RAJ_UK # British Raj
 
 640 = { #Mandalay
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
@@ -154,6 +141,16 @@ set_cosmetic_tag = RAJ_UK # British Raj
 		complete_national_focus = RAJ_industrial_expansion
 		complete_national_focus = RAJ_ishapore_arsenal
 	}
+
+	create_country_leader = {
+	name = "Farouk Muhammad Ali"
+	desc = ""
+	picture = "GFX_portrait_egy_faud_i"
+	ideology = neutrality
+	traits = {
+		#
+	}
+}
 
 	if = {
 		limit = {
