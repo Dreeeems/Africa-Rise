@@ -142,15 +142,7 @@ set_convoys = 20
 		complete_national_focus = RAJ_ishapore_arsenal
 	}
 
-	create_country_leader = {
-	name = "Farouk Muhammad Ali"
-	desc = ""
-	picture = "GFX_portrait_egy_faud_i"
-	ideology = neutrality
-	traits = {
-		#
-	}
-}
+	
 
 	if = {
 		limit = {
@@ -299,7 +291,7 @@ if = {
 		nationalities = { RAJ }
 	}
 }
-
+recruit_character = GBE_farouk_i
 #432 = {
 #	add_dynamic_modifier = {
 #		modifier = malaria

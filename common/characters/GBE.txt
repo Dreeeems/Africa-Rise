@@ -1,0 +1,19 @@
+characters = {
+
+    GBE_farouk_i = {
+
+        name = "Farouk I"
+
+        country_leader = {
+            ideology = despotism
+            expire = "1952.1.1"
+            id = -1
+        }
+
+        portraits = {
+            civilian = {
+                large = GFX_portrait_GBE_farouk
+            }
+        }
+    }
+}
