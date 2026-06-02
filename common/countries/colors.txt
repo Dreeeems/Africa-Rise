@@ -1203,6 +1203,10 @@ PSR = {
 	color_ui = rgb { 16 16 61 }
 }
 
+#GBE = {
+#	color = rgb { 195 72 17 }
+#	color_ui = rgb { 195 72 16 }	
+#}
 HBC = {
 	color = rgb { 156 27 22 }
 	color_ui = rgb { 94 17 14 }
@@ -1217,8 +1221,5 @@ GAL = {
 	color_ui = rgb { 195 72 16 }	
 }
 
-GBE = {
-	color = rgb {173 168  59}
-	color_ui = rgb {173 168  59}
-}
+
 
