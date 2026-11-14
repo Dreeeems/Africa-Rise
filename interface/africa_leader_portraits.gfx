@@ -1,0 +1,16 @@
+spriteTypes = {
+
+	# leaders we need to override in DLC go in this file
+
+
+	
+
+
+	### GBE
+
+	spriteType = {
+		name = "GFX_portrait_GBE_farouk"
+		texturefile = "gfx/leaders/GBE/Farouk_I.dds"
+	}
+
+}
